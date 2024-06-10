@@ -40,6 +40,6 @@ docker run -it --rm --init \
 	-v /usr/bin/p4:/bin/p4/ \
 	--workdir=$BUILD_DIR \
 	$DOCKER_IMAGE_NAME:$DOCKER_IMAGE_VERSION \
-	bash -c "/root/my_docker/login.sh `whoami` /root/my_docker/"
+	bash -c "/root/My_Docker/login.sh `whoami` /root/My_Docker/"
 
 echo "*** End of Docker Image ***"
